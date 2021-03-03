@@ -39,7 +39,7 @@ def main():
     file_names = []
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ratio', help='.ratio of test set',
+    parser.add_argument('--ratio', help='.ratio of test set', type=float,
                         default=0.2)
     args = parser.parse_args()
 

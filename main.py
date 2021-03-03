@@ -3,7 +3,7 @@ import os
 import shutil
 import argparse
 
-dir_path = r'C:\Users\hong0\PycharmProjects\image-scrapping\images'
+dir_path = r'.\to_english'
 
 def createFolder(directory):
     try:

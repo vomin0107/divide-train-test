@@ -3,7 +3,7 @@ import os
 import shutil
 import argparse
 
-dir_path = r'.\to_english'
+dir_path = r'./images'
 
 
 def create_folder(directory):

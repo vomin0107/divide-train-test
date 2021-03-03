@@ -5,7 +5,8 @@ import argparse
 
 dir_path = r'.\to_english'
 
-def createFolder(directory):
+
+def create_folder(directory):
     try:
         if not os.path.exists(directory):
             os.makedirs(directory)
@@ -49,13 +50,13 @@ def main():
 
     random.shuffle(file_names)
 
-    createFolder('./test')
-    createFolder('./train')
+    create_folder('./test')
+    create_folder('./train')
 
     divide_set(file_names, args.ratio)
 
     print('done.')
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     main()
